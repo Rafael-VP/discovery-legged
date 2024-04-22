@@ -1,6 +1,0 @@
-#ifndef FORECAST_VERSION_HPP
-#define FORECAST_VERSION_HPP
-
-#define FORECAST_VERSION "2.0"
-
-#endif

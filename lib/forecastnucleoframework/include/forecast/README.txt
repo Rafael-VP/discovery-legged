@@ -1,1 +1,0 @@
-This is a public include directory that will be exported to the user.

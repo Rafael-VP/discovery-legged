@@ -4,3 +4,4 @@
 .vscode/ipch
 .DS_store
 docs/
+include/

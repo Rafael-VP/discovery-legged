@@ -38,6 +38,14 @@ using namespace utility;
 #define TARGET_DEFINED
 #endif
 
+// Testing configuration:
+#ifdef TARGET_STM32F429xI
+#define CLOCK_FREQ      180000000
+#define TIM_USR         TIM2
+#define TIM_USR_IRQ     TIM2_IRQn
+#define TARGET_DEFINED
+#endif
+
 #ifndef TARGET_DEFINED
     #error  "Target board not supported! "\
             "Available targets are: L432KC, F401RE, F446RE, F411RE"
